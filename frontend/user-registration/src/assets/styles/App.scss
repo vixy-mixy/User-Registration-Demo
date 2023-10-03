@@ -1,0 +1,63 @@
+.App {
+    margin: auto;
+    margin-top: 12rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgb(70, 67, 67);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Field {
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    >p {
+        padding: 0;
+        margin: .8rem;
+    }
+
+    input {
+        height: 1.5rem;
+        width: 20rem;
+        border-radius: 15px;
+        padding: 1rem;
+        background-color: rgb(51, 48, 48);
+        border: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(6, 148, 148);
+    height: 3rem;
+    width: 6rem;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    margin: 1rem;
+    background-color: rgb(6, 116, 116);
+    height: 3rem;
+    width: 6rem;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    cursor: pointer;
+}
