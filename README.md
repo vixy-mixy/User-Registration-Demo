@@ -1,5 +1,6 @@
 # User Registration Demo
-This is a full stack app created using Spring Boot and react which gives you the course list added to courses 
+This is a full stack app created using Spring Boot and react which gives you a demo how you can create a
+full user registration service with authentication functionality. 
 # Contibution Guide
 1. First fork the repo to your account
 2. Clone this to your local codebase by `git clone [repository link]`
